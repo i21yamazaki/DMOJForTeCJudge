@@ -11,6 +11,9 @@ problem_storage_root:
 # If you're unsure of what values a language needs, your best bet is to consult the source of the executor:
 # <https://github.com/DMOJ/judge/tree/master/dmoj/executors>
 runtime:
+  # TeC用
+  tasm: /usr/local/bin/tasm   # アセンブラ
+  tec: /usr/local/bin/tec     # シミュレータ
   awk: /usr/bin/awk
   bash: /bin/bash
   cargo: /home/judge/.cargo/bin/cargo

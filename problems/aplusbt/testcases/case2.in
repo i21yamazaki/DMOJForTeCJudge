@@ -1,0 +1,5 @@
+[A] = 18
+[B] = 52
+$RUN
+$WAIT STOP
+$PRINT [SUM]

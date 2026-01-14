@@ -1,0 +1,5 @@
+archive: aplusbt.zip
+test_cases:
+  - {in: case1.in, out: case1.out, points: 1}
+  - {in: case2.in, out: case2.out, points: 1}
+  - {in: case3.in, out: case3.out, points: 1}

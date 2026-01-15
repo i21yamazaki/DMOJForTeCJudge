@@ -1,11 +1,10 @@
 version: "3"
 services:
-  # サイトサーバは変更しない
-  # web:
-  #   build:
-  #     context: ./docker/site
-  #     dockerfile: Dockerfile
-  #   image: goropikari/dmoj-site:dev
+  web:
+    build:
+      context: ./docker/site
+      dockerfile: Dockerfile
+    image: goropikari/dmoj-site:dev
 
   judger:
     build:

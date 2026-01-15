@@ -26,8 +26,9 @@ if [ ! -e /var/www/static ]; then
 
     python3 manage.py migrate
     python3 manage.py loaddata navbar
-    python3 manage.py loaddata language_all
+    python3 manage.py loaddata language_ex
     python3 manage.py loaddata demo
+    python3 manage.py loaddata demo_ex
 fi
 
 # for communication with judge server

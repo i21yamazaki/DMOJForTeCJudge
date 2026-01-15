@@ -1,6 +1,6 @@
 from dmoj.executors.compiled_executor import CompiledExecutor
 
-from dmoj.util.ansi import print_ansi
+from dmoj.utils.ansi import print_ansi
 from dmoj.utils.error import print_protection_fault
 from dmoj.utils.unicode import utf8bytes
 

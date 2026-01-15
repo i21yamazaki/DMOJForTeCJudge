@@ -2,4 +2,4 @@
 [B] = 10
 $RUN
 $WAIT STOP
-$PRINT [ANS]
+$PRINT [SUM]
